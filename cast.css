@@ -1,20 +1,24 @@
 h1 {
-    color: hotpink;
+    color: white;
     border: 4px solid plum;
     border-radius: 20px;
     text-align: center;
     width: 300px;
     margin: 10px 500px 0 500px;
+    background-image: linear-gradient(#9D41F4, #FA41CE, #FA416F);
 }
 
 table {
-    border: 2px solid black;
+    border: 7px double #FF88DC;
     width: 600px;
     height: 60px;
     margin: 20px 0 0 300px;
 }
 .purple{
-    background-color: purple;
+    background-image: linear-gradient( #6841FA, #C741FA, #FA418E);
+}
+.purple:hover {
+    background-image: linear-gradient( #6622CC, #3a86ff, #ff006e);
 }
   .pick {
     text-align: center;
